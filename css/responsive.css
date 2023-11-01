@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+@media screen and (max-width : 1150px) {
+	.container{
+	 width: 95%;
+	}
+ }
+ 
+ @media screen and (max-width : 850px){
+	 .header nav{
+		 display: none;
+	 }
+	 .m-btn{
+		 display: block;
+	 }
+ /* ===========배너========== */
+	 .youtube{
+		 height: 94vw;
+	 }
+	 .youtube .banner{
+		 width: 94vw;
+	 }
+	 /* .youtube .banner p{
+		 font-size: 1.2rem;
+		 letter-spacing: .9rem;
+		 width: 45%;
+		 top: 65%;
+		 left: 50%;
+		 transform: translateX(-50%);
+	 } */
+ 
+ /* ======어바웃========*/
+	 .tab-body .tab-section{
+		 border: 1px solid #333;
+		 position: relative;
+		 width: 100%;
+		 height: 600px;
+	 }
+	 .tab-section .desc{
+		 display: flex;
+		 justify-content: center;
+		 align-items: center;
+		 flex-wrap: wrap;
+		 padding: 50px;
+	 }
+	 .tab-section .desc .desc-text{
+		 display: none;
+	 }
+	 .tab-section .desc img{
+		 width: 30vw;
+		 margin-bottom: 30px;
+	 }
+	 .tab-section .desc .desc-text2{
+			display: block;
+	 }
+ 
+	 /* ====능력==== */
+	 #ability{
+		 display: grid;
+		 grid-template-columns: repeat(3,1fr);
+		 padding: 50px;
+	 }
+	 /* ======자격증===== */
+	 #license .license-contents{
+		 display: flex;
+		 justify-content: space-between;
+		 flex-wrap: wrap;
+	 }
+ }
+ @media screen and (max-width : 740px){
+ /* ========배너========== */
+	 .youtube .banner{
+		 width: 94vw;
+		 height: 94vw;
+	 }
+	 .youtube .banner .hoo{
+		 font-size: 23vw;
+		 top: 10%;
+		 left: 50%;
+		 transform: translateX(-50%);
+	 }
+	 .youtube .banner .are{
+		 top: 40%;
+		 font-size: 8.8vw;
+		 left: 50%;
+		 transform: translateX(-50%);
+	 }
+	 .youtube .banner p{
+		 font-size: 2vw;
+		 letter-spacing: .5rem;
+		 width: 40%;
+		 top: 55%;
+		 line-height: 5vw;
+	 }
+	 .youtube .banner p strong{
+		 font-size: 3.5vw;
+	 } 
+ 
+ 
+ }
